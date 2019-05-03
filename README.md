@@ -14,7 +14,9 @@ ARCHITECTURE
 4) DBManager -  Handles all database operations. Incase of a no internet connection scenario, the data wil be fetched from the database.
 5) PostsVC, CommentsVC (ViewControler) - Its only job is to display the data and handle UI operation. 
 
-UNIT TESTS
+TESTS
+
+INTEGRATION TESTS
     - Test for checking if the user's api returns the response and parses correctly into our `User` model object.
     - Test for checking if the post's api returns the response and parses into our `Post` model object.
     - Test for checking if comment's api retruns the response & parses correctly into our `Comment` object, when a valid post id is passed.

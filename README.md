@@ -1,4 +1,5 @@
 # MVVMProject
+Please run `pod install` before running the project
 # Summary
 
 Libraries used:
